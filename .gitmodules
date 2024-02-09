@@ -1,0 +1,3 @@
+[submodule "Tools/XMGRs-PSClient"]
+	path = Tools/XMGRs-PSClient
+	url = https://simhub.simcorp.com/SimCorp/XMGRs-PSClient.git

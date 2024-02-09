@@ -1,0 +1,130 @@
+# This is a comment.
+# Each line is a file pattern followed by one or more owners.
+
+# These owners will be the default owners for everything in
+# the repo. Unless a later match takes precedence,
+# @global-owner1 and @global-owner2 will be requested for
+# review when someone opens a pull request.
+#
+* @Simcorp/Sky
+
+Modules/DataLineage/ @Simcorp/Sky  @SimCorp/mad-cows
+
+Modules/FinanceSchemes/ @Simcorp/Sky @SimCorp/work-work
+
+Modules/FinancialReportingFoundation/ @Simcorp/Sky @SimCorp/work-work
+
+Modules/IBORFoundation/ @Simcorp/Sky  @SimCorp/mad-cows
+
+Modules/InvestmentAccountingFoundation/ @Simcorp/Sky @SimCorp/work-work
+
+Modules/ReferenceData/ @Simcorp/Sky  @SimCorp/mad-cows
+
+Modules/RequestMissingSecurity/ @Simcorp/Sky  @SimCorp/mad-cows
+
+Modules/CentralTradeManager/ @Simcorp/Sky  @SimCorp/work-work
+
+Modules/StarterClone/ @Simcorp/Sky  @SimCorp/mad-cows
+
+Modules/SwiftCsdr/ @Simcorp/Sky  @SimCorp/mad-cows
+
+Modules/SwiftFoundation/ @Simcorp/Sky  @SimCorp/work-work
+
+Modules/SwiftPayments/ @Simcorp/Sky  @SimCorp/work-work
+
+Modules/SwiftSettlements/ @Simcorp/Sky  @SimCorp/work-work
+
+Modules/TradeCapture/ @Simcorp/Sky  @SimCorp/mad-cows
+
+Modules/Valuation/ @Simcorp/Sky  @SimCorp/mad-cows
+
+Modules/CCPClearingBrokerIntegration/ @Simcorp/Sky  @SimCorp/work-work
+
+Modules/CollateralManagementFoundation/ @Simcorp/Sky  @SimCorp/work-work
+
+Modules/ExternallyCalculatedIM/ @Simcorp/Sky  @SimCorp/work-work
+
+Modules/BPAReportingFoundation/ @Simcorp/Sky @SimCorp/raptors
+
+Modules/FundAndPortfolioSTP/ @Simcorp/Sky @SimCorp/work-work
+
+Modules/GeneralLedgerNAV/ @Simcorp/Sky @SimCorp/work-work
+
+Modules/ShadowNAV/ @Simcorp/Sky @SimCorp/work-work
+
+Modules/MarkitServCSV/ @Simcorp/Sky  @SimCorp/mad-cows
+
+Modules/GainSecurityMasterAndMarketData/ @Simcorp/Sky @SimCorp/mad-cows
+
+Modules/GainCorporateActions/ @Simcorp/Sky @SimCorp/mad-cows
+
+Modules/CorporateActionManager/ @Simcorp/Sky @SimCorp/work-work
+
+Modules/AlternativeInvestmentManagement/ @Simcorp/Sky @SimCorp/mad-cows
+
+Modules/AlternativesDocumentProcessing/ @Simcorp/Sky @SimCorp/mad-cows
+
+Modules/AlternativesFundDecompositionAndLookThrough/ @Simcorp/Sky @SimCorp/mad-cows
+
+Modules/DataWarehouseManager/ @Simcorp/Sky @SimCorp/raptors @SimCorp/mad-cows
+
+Modules/BPOReportingFoundation/ @Simcorp/Sky @SimCorp/raptors
+
+Modules/CRSFoundation/ @Simcorp/Sky @SimCorp/raptors
+
+Modules/CashManagement/ @Simcorp/Sky @SimCorp/mad-cows
+
+Modules/ESGCommonConfiguration/ @Simcorp/Sky  @SimCorp/InvestmentSP
+
+Modules/ESGTaxonomyRegulationBase/ @Simcorp/Sky  @SimCorp/InvestmentSP
+
+Modules/ESGTaxonomyRegulationSFDR/ @Simcorp/Sky  @SimCorp/InvestmentSP
+
+Modules/ESGTRNFRDInsurer/ @Simcorp/Sky  @SimCorp/InvestmentSP
+
+Modules/ESGTRNFRDAssetManager/ @Simcorp/Sky  @SimCorp/InvestmentSP
+
+Modules/FundApps/ @Simcorp/Sky @SimCorp/mad-cows
+
+Modules/InvestmentStructureFoundation/ @Simcorp/Sky @SimCorp/mad-cows
+
+Modules/BloombergDataLicenseInterface/ @Simcorp/Sky @SimCorp/mad-cows
+
+Modules/AlternativeInterfaceCambridgeAssociates/ @Simcorp/Sky @SimCorp/InvestmentSP
+
+Modules/AlternativeInterfacePreqin/ @Simcorp/Sky @SimCorp/InvestmentSP
+
+Modules/AlternativeInterfaceColmore/ @Simcorp/Sky @SimCorp/InvestmentSP
+
+Modules/AlternativesAstra/ @Simcorp/Sky @SimCorp/InvestmentSP
+
+Modules/InternalRiskModel/ @Simcorp/Sky @SimCorp/mad-cows
+
+Modules/PortfolioManagement/ @Simcorp/Sky @SimCorp/mad-cows
+
+Modules/RiskFoundation/ @Simcorp/Sky @SimCorp/mad-cows
+
+Modules/FactorBasedFIPA/ @Simcorp/Sky @SimCorp/mad-cows
+
+Modules/Reconciliation/ @Simcorp/Sky @SimCorp/work-work
+
+Modules/CustodianIntegration/ @Simcorp/Sky @SimCorp/work-work
+
+Modules/TradeProcessingFoundation/ @Simcorp/Sky @SimCorp/work-work
+
+Modules/AxiomaMultiFactorRiskModels/ @Simcorp/Sky @SimCorp/team-fusion
+
+Mutations/.../IBORFoundation/ @Simcorp/Sky  @SimCorp/mad-cows
+
+Mutations/.../FundAndPortfolioSTP/ @Simcorp/Sky @SimCorp/work-work
+
+SPA/ @Simcorp/Sky  @SimCorp/wellness
+
+IAS/ @Simcorp/Sky
+
+SP_ALL/ @Simcorp/Sky  @SimCorp/mad-cows
+
+Tools/ @Simcorp/Sky
+
+# V&T team is owner of standard regression test cases and configuration
+IOS/Regression/ @SimCorp/testingservices
